@@ -1,7 +1,7 @@
 export default {
   render(h){
     if ( this.message ) return h('span', {
-      'class': 'help-block form-text text-danger'
+      'class': 'form-message dark'
     }, this.message);
   },
   props: ['field', 'form'],
